@@ -1,15 +1,32 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVENGERS CHARACTER SEARCH</title>
     <link rel="stylesheet" href="styles.css">
     <script src="app.js"></script>
     
 </head>
 <body>
-    <div>
-    <!-- <?php include ('superheroes.php');?> -->
-    <button type="button" class="btn"  >SEARCH</button>
-</div>
+    <header>
+        <div>
+            <H1>AVENGERS CHARACTER SEARCH</H1>
+        </div> 
+    </header>
+    <main>
+    <section>
+        <div class="search">
+            <h2>Search by full name or alias</h2>
+            <form action="superheroes.php" method="post">
+                <input id="searchbar" type="text" name="superName" placeholder="Search">
+                <button type="button" class="btn"  >SEARCH</button>
+            </form>
+        </div>
+        <div class="result">
+
+        </div>
+    </section>
+    </main>
 </body>
 
 
